@@ -98,7 +98,7 @@ function loadMoviesdetails() {
     searchListMovies.forEach(movie => {
         movie.addEventListener('click', async () => {
             // console.log(movie.dataset.id);
-            const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=fc1fef96`);
+            const result = await fetch(`https://www.omdbapi.com/?i=${movie.dataset.id}&apikey=fc1fef96`);
             const movieDetails = await result.json();
             console.log(movieDetails);
             displayMovieDetails(movieDetails);
