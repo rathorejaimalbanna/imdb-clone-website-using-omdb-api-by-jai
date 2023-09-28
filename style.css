@@ -41,7 +41,7 @@
 #headdisplay::before{
     content: "";
     position: absolute;
-    background-image: url(/batman.avif);
+    background-image: url(/batman.jpg);
     left: 0;
     width: 100vw;
     height: 80vh;
